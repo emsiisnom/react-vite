@@ -9,6 +9,7 @@ const TodoNew = (props) => {
 
   // addNewTodo();
   const handClick = () => {
+    addNewTodo(valueInput);
     console.log(valueInput);
   };
   const handleOnChange = (name) => {
